@@ -62,7 +62,7 @@ url: c.embed_url + "&parent=" + env.PARENT
 
 export default {
 async fetch(req, env) {
-env.PARENT = new URL(req.url).hostname
+env.PARENT = new URL(req.url).searchParams.get("parent")
 
 
 const t = await token(env)
