@@ -1,4 +1,4 @@
-name = "imt00dizzy-rerun-backend"
+name = "website-for-reruns"
 main = "worker.js"
 compatibility_date = "2024-11-01"
 
